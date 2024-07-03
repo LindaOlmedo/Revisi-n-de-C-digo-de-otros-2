@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- meta http-equiv="X-UA-Compatible" content="IE=edge"// No corresponde por default a la estructura HTML-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
   <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
   <title>Formulario</title>
 </head>
@@ -14,18 +15,21 @@
 
   <form class="formulario">
     Nombre <input type="text" name="name" id="name">
-    <br />
+    <br>
     Edad <input type="number" name="age" id="age">
-    <br />
+    <br>
+<!--Mal escrita la etiqueta <br> // se corrige -->
 
     Nacionalidad
     <select name="nationality" id="nationality">
-      <option value="ar">Argentina</option>
+    <option value="na"></option>
+    <option value="ar">Argentina</option>
       <option value="mx">Mexicana</option>
       <option value="per">Peruana</option>
       <option value="vnzl">Venezolana</option>
     </select>
-    <br />
+    <br>
+    <!-- Mal escrita la etiqueta <br> // se corrige para hacer lista desplegable y seleccionar-->
     <input type="submit">
   </form>
 
@@ -34,7 +38,8 @@
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="../codigo-otros-2/formulario.js"></script>
+  <!-- Mal ubicada la dirección src-->
 </body>
 
 </html>
